@@ -63,7 +63,6 @@ body{
     border-radius: 0.2rem;
     width: fit-content;
     background-color: var(--Light-Grayish-Magenta);
-    
 }
 .rating-2-container{
     margin-left:3rem;
@@ -79,7 +78,7 @@ body{
     justify-content: center;
 }
 .star-ratings img{
-    margin-right:7px;
+    margin-right:px;
 }
 .star-ratings p{
     margin-left:1.5rem;
@@ -105,7 +104,6 @@ color: var(--Light-Grayish-Magenta);
 }
 .review-text{
     color: var(--Light-Grayish-Magenta);
-    /* font-size: 0.9rem; */
     line-height: 25px;
 }
 
@@ -151,4 +149,71 @@ margin-bottom:1.2rem;
     display:grid;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1fr 1fr ;
+}
+@media screen and (max-width:850px){
+    body{
+        background-image:url(./images/bg-pattern-top-mobile.svg),url(./images/bg-pattern-bottom-mobile.svg) ;
+    }
+    .main-container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* HEAD ITEMS */
+    .head-container{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .text-container p{
+        margin-top:4rem;
+        margin-bottom:0;
+        text-align: center;
+        color: var(--Dark-Grayish-Magenta);
+    }
+    .text-container h1{
+        text-align: center;
+    }
+    /* STAR-RATINGS */
+    .star-ratings{
+        margin-top:0;
+    }
+    .rating-1-container,.rating-2-container,.rating-3-container{
+        margin:0;
+        margin-bottom: 1rem;
+        width: auto;
+        
+    }
+    .rating-1, .rating-2, .rating-3{
+        align-items: center;
+        padding: 0.5rem auto 0.5rem 2rem;
+        margin:0 0 1rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    .rating-img{
+    margin-right:7px;
+    display: flex;
+    flex-direction: row;
+}
+.star-ratings p{
+    margin-top:1rem;
+}
+    
+    /* REVIEW COMMENTS */
+    .reviews{
+        display:flex;
+        flex-direction: column;
+        gap: 0.3rem;
+        color:var(--White);
+        text-align: center;
+    }
+    .review-1,.review-2,.review-3{
+        border:2px solid var(--Very-Dark-Magenta);
+        background-color: var(--Very-Dark-Magenta);
+        border-radius: 0.8rem;
+        padding:4rem 1.2rem 4rem 1.2rem; ;
+        margin-top:0.7rem;
+    }
 }
