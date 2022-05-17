@@ -59,10 +59,10 @@ body{
 }
 
 .rating-1-container,.rating-2-container,.rating-3-container{
-    border: 4px solid --Dark-Grayish-Magenta;
+    border: 4px ;
     border-radius: 0.2rem;
     width: fit-content;
-    background-color: var(--Light-Grayish-Magenta);
+    background-color: hsl(300, 24%, 96%);
 }
 .rating-2-container{
     margin-left:3rem;
@@ -78,7 +78,7 @@ body{
     justify-content: center;
 }
 .star-ratings img{
-    margin-right:px;
+    margin-right:0px;
 }
 .star-ratings p{
     margin-left:1.5rem;
@@ -186,7 +186,6 @@ margin-bottom:1.2rem;
     }
     .rating-1, .rating-2, .rating-3{
         align-items: center;
-        padding: 0.5rem auto 0.5rem 2rem;
         margin:0 0 1rem 0;
         display: flex;
         flex-direction: column;
