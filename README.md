@@ -10,7 +10,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL: [Social proof section solution](https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-with-single-introductory-section-ByDKiqfLc)
-- Live Site URL: [Social proof section site](https://lovely-flan-42307d.netlify.app/)
+- Live Site URL: [Social proof section site](https://eclectic-kataifi-10b2b8.netlify.app/)
 
 ### Built with
 
